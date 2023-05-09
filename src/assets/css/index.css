@@ -1,0 +1,10 @@
+.category {
+    width: 80px;
+    height: 80px;
+}
+
+.category__image__bg img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.square-42 {
+  height: 42px;
+  width: 42px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+  background-color: #ede8e6;
+}
+
+.bi-facebook {
+  color: #3b5999;
+}
+
+.bi-instagram {
+  color: #e4405f;
+}
+
+.bi-youtube {
+  color: #cd201f;
+}
+
+.bi-twitter {
+  color: #55acee;
+}
+
+.background__jumbotron {
+  background-image: url(https://res.cloudinary.com/dw0getd2m/image/upload/v1/media/product_media/jameson_irish_whisky_2_gitqjs);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-dark .nav-item a {
+  color: rgba(255, 255, 255, 0.811) !important;
+}

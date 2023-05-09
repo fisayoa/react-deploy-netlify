@@ -1,0 +1,88 @@
+:root {
+  --fine-wine-main-color: #ff6026ff;
+  --fine-wine-main-color-2: #d74009;
+  --fine-wine-main-color-faint: #ffbca3ff;
+  --fine-wine-main-color-faint-25: rgba(255, 187, 163, 0.5);
+  --fine-wine-main-color-hover: #e73e00ff;
+  --fine-wine-main-color-active: #c93600ff;
+  --fine-wine-white: #ffffffff;
+}
+
+body {
+  overflow-x: hidden;
+}
+.text-main {
+  color: var(--fine-wine-main-color);
+}
+
+.background__main {
+  background: var(--fine-wine-main-color-faint);
+}
+.background__main-2 {
+  background: var(--fine-wine-main-color-2);
+}
+
+.background__main-25 {
+  background-color: var(--fine-wine-main-color-faint-25);
+}
+
+/* Button Main  */
+
+.btn-main {
+  color: var(--fine-wine-white) !important;
+  background: var(--fine-wine-main-color) !important;
+}
+
+.btn-outline-main {
+  border-color: var(--fine-wine-main-color);
+  color: var(--fine-wine-main-color);
+}
+
+/* Hover */
+
+.btn-main:hover,
+.btn-outline-main:hover {
+  color: var(--fine-wine-white);
+  background: var(--fine-wine-main-color-hover);
+}
+
+/* Pressed */
+
+.btn-main:hover:active {
+  color: var(--fine-wine-white);
+  background: var(--fine-wine-main-color-active);
+}
+
+/* Disabled */
+
+.btn-outline-main:disabled,
+.btn-main:disabled {
+  opacity: 0.4;
+}
+
+@media (min-width: 768px) {
+  .vh-md-100 {
+    height: 100vh;
+  }
+  .min-vh-md-100 {
+    min-height: 100vh !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .vh-sm-25 {
+    height: 25vh;
+  }
+  .vh-sm-75 {
+    height: 75vh;
+  }
+  .min-vh-sm-75 {
+    min-height: 75vh !important;
+  }
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+
